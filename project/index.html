@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- 设置视口-->
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <!-- 导入css-->
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <!-- 导入3个js,有顺序要求-->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!--引入css-->
+    <link rel="stylesheet" href="css/comms.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<header id="header"></header>
+<!--引入头部-->
+<div class="container">
+    <div class="my-b p-2">
+        <span>目前本网站正在升级中，部分功能暂时无法使用，敬请谅解；如果遇到部分番剧无法播放的情况下，请反复刷新几下</span>
+    </div>
+    <div class="carousel mb-2" data-ride="carousel" id="demo" >
+   <!--轮播图-->
+   <main id="main">
+    <div id="banner">
+      <div id="btn-left"></div>
+      <ul id="ul-imgs" style="width:5000px; margin-left:0px;">
+        <li><a href="javascript:;"><img src="../img/lunb/1.jpg"></a></li>
+        <li><a href="javascript:;"><img src="../img/lunb/2.jpg"></a></li>
+        <li><a href="javascript:;"><img src="../img/lunb/3.jpg"></a></li>
+        <li><a href="javascript:;"><img src="../img/lunb/4.jpg"></a></li>
+        <!--注意！最后li个数要比实际图片张数多1，最后一个li里的img是重复第一张li的图片-->
+        <li><a href="javascript:;"><img src="../img/lunb/1.jpg"></a></li>
+      </ul>
+      <ul id="ul-idxs">
+        <!--虽然li个数比实际图片张数多1，但小圆点的个数不必多1-->
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div id="btn-right"></div>
+    </div>
+  </main>
+    <!-- 点击周一到周日 -->
+    <!--七月新番-->
+    <div class="mt-4 p-0 " >
+         <div class="title">
+             <span>7月新番预览</span>
+             <sup>New</sup>
+             <a href="javascript:;" class="x">点击查看更多</a>
+         </div>
+        <br/>
+        <div class="row bac ml-1 p-0">
+					<div class="back">
+            <div class="bac1 ">
+                <div class="my-bac">
+                    <p class="p1">平凡职业成就世界最强</p>
+                    <p class="p2">第pv话</p>
+                </div>
+            </div>
+						</div>
+						<div class="back ">
+            <div class="bac2">
+                <div class="my-bac">
+                    <p class="p1">为了女儿我说不定连魔王</p>
+                    <p class="p2">第pv话</p>
+                </div>
+            </div>
+						</div>
+						<div class="back ">
+            <div class="bac3">
+                <div class="my-bac">
+                    <p class="p1">普通攻击是全体二连击</p>
+                    <p class="p2">第pv话</p>
+                </div>
+            </div>
+						</div>
+						<div class="back ">
+            <div class="bac4">
+                <div class="my-bac">
+                    <p class="p1">某科学的一方通行</p>
+                    <p class="p2">第pv话</p>
+                </div>
+            </div></div>
+						<div class="back ">
+            <div class="bac5">
+                <div class="my-bac">
+                    <p class="p1">只要可爱即使是变态你也</p>
+                    <p class="p2">第pv话</p>
+                </div>
+            </div>
+						</div>
+        </div>
+    </div>
+    <hr class="mt-4"/>
+    <!--新番推送-->
+    <div class="mt-4 p-0 mb-4">
+        <div class="title">
+            <span>新番推送</span>
+            <sup>New</sup>
+            <a href="#" class="x">更多</a>
+        </div>
+        <br/>
+        <!--第一行-->
+        <div class="row book article">
+            <a href="http://127.0.0.1:5500/project/paging.html">
+                <figure>
+                    <div class="my_back6"></div>
+                    <figcaption>
+                        <p class="p3">一拳超人第二季</p>
+                        <p>第11话</p>
+                    </figcaption>
+                </figure>
+                </a>
+            <a href="http://127.0.0.1:5500/project/paging.html">
+                <figure>
+                    <div class="my_back7"></div>
+                    <figcaption>
+                        <p class="p3">强袭魔女：501战队出发！</p>
+                        <p>第2话</p>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="http://127.0.0.1:5500/project/paging.html">
+                <figure>
+                    <div class="my_back8"></div>
+                    <figcaption>
+                        <p class="p3">ZOIDS</p>
+                        <p>第2话</p>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="http://127.0.0.1:5500/project/paging.html">
+                <figure>
+                    <div class="my_back9"></div>
+                    <figcaption>
+                        <p class="p3">八十龟酱观察日记</p>
+                        <p>第11话</p>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="http://127.0.0.1:5500/project/paging.html">
+                <figure>
+                    <div class="my_back10"></div>
+                    <figcaption>
+                        <p class="p3">八十龟酱观察日记</p>
+                        <p>第10话</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+        <!--新番推送第二行 -->
+        <div class="row bacb ml-1 p-0 m-0">
+                <div class="my_back1 ">
+                    <div class="my-bac">
+                        <p class="p1">水果篮子</p>
+                        <p class="p2">第13话</p>
+                    </div>
+            </div> 
+            <div class="my_back2 ">
+                <div class="my-bac ">
+                    <p class="p1">偶像活动Friends~闪耀的宝</p>
+                    <p class="p2">第13话</p>
+                </div>
+            </div>
+            <div class="my_back3 ">
+                <div class="my-bac">
+                    <p class="p1">机动战士高达 THE ORLGLN</p>
+                    <p class="p2">第9话</p>
+                </div>
+            </div>
+            <div class="my_back4">
+                <div class="my-bac">
+                    <p class="p1">贤惠幼妻狐仙小姐</p>
+                    <p class="p2">第12话</p>
+                </div>
+            </div>
+            <div class="my_back5 mr-0">
+                <div class="my-bac">
+                    <p class="p1">八十龟酱观察日记</p>
+                    <p class="p2">第12话</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="../img/A5-2.jpg" alt="" class="img"/>
+        </div>
+        <hr class="mt-4"/>
+        <!--最新投稿-->
+        <div class="mt-4 mb-4">
+            <div class="title">
+                <span>最新投稿</span>
+                <sup>New</sup>
+                <a href="#" class="x">点我进入里世界￣ω￣</a>
+            </div>
+            <!--第一行-->
+            <div class="row book">
+                <a href="#">
+                    <figure>
+                        <div class="zui1"></div>
+                        <figcaption>
+                            <p class="p3">酷狗X5真无限蓝牙耳机开箱依然体验</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <div class="zui2"></div>
+                        <figcaption>
+                            <p class="p3">游戏人生一世界的起源【早着251秒之中,赌上我的全部】总</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <div class="zui3"></div>
+                        <figcaption>
+                            <p class="p3">史上最坑爹的恐怖游戏，玩到最后竟是防火意识的科普<1406></p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <div class="zui4"></div>
+                        <figcaption>
+                            <p class="p3">老骨受伤引起的争议？枉我把你当成兄弟！？这周新番有点猛【</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <div class="zui5"></div>
+                        <figcaption>
+                            <p class="p3">【星际zero】《疯狂的麦克斯》娱乐实况解说08</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="row book">
+                <a href="#">
+                    <figure>
+                        <div class="zui6"></div>
+                        <figcaption>
+                            <p class="p3">大学网红食堂的学生就此这个额？（微信钱包被榨干）</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <div class="zui7"></div>
+                        <figcaption>
+                            <p class="p3  pr-2">twitch上关注的小姐姐直接剪辑</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <div class="zui8"></div>
+                        <figcaption>
+                            <p class="p3">盾勇作者来起点 包你饿死街头<1406></p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <div class="zui9"></div>
+                        <figcaption>
+                            <p class="p3">【星际zero】《疯狂的麦克斯》娱乐实况解说20</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <div class="zui10"></div>
+                        <figcaption>
+                            <p class="p3">【只狼】你的mong♂男皇子</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </div>
+    <header id="footer" style="margin-bottom:30px;"></header>
+    <div>111</div>
+    <script>
+        var i=0;//现在正在显示第几张图片，从0开始
+        var LIWIDTH=1000;//每个li的固定宽度
+        var DURATION=500;//每次轮播动画持续的时间
+        var LICOUNT=4;//li的总个数
+        //要移动的ul
+        var ulImgs=document.getElementById("ul-imgs");
+        //包含小圆点列表的ul
+        var ulIdxs=document.getElementById("ul-idxs");
+        //小圆点的元素列表
+        var lis=ulIdxs.children;
+        //从当前位置移动到任意一个范围内的位置
+        function moveTo(to){
+          //如果用户没有传入要跳到第几张图，就默认跳到当前图的下一个张
+          if(to==undefined){
+            to=i+1;
+          }
+          if(i==0){
+            if(to>i){//如果要看当前位置右边的图片，是不会出问题的
+              ulImgs.className="transition";
+            }else{//只有i=0在开头，且还要看左边的图片时，才会出问题
+              //为了避免用户再次看到偷梁换柱的效果，先把transition class去掉
+              ulImgs.className="";
+              //将ulImgs拉取到最左侧
+              ulImgs.style.marginLeft=-LIWIDTH*LICOUNT+"px";
+              //定时器是为了将偷梁换柱操作和加回transition属性的操作强行隔离开
+              setTimeout(function(){
+                moveTo(LICOUNT-1);
+              },100);
+              return;
+            }
+          }
+          i=to;//先将表示第几张图片的变量i变为目标位置
+          //再用i计算ulimgs的marginLeft距离
+          ulImgs.style.marginLeft=-i*LIWIDTH+"px";
+          //先删除所有小圆点的class
+          for(var li of lis){
+            li.className=""
+          }
+          if(i==LICOUNT){
+            i=0;
+            //当transition动画播放完之后，才
+            setTimeout(function(){
+              ulImgs.className="";//清掉transition属性
+              ulImgs.style.marginLeft=0;//将ulImgs拉回0位置
+            },DURATION)
+          }
+          //再给当前位置的小圆点添加class active
+          lis[i].className="active";
+        }
+    </script>
+    <script>
+        var btnLeft=document.getElementById("btn-left");
+        var btnRight=document.getElementById("btn-right");
+        //用开关，控制，上次动画没有播放完，下次动画不能开始！
+        var canClick=true;
+        btnRight.onclick=function(){
+          //调用两个按钮公共的移动方法，参数1表示移动到i+1的位置，相当于左移一个
+          move(1)
+        }
+        //两个按钮共用的移动函数，n传入1时，移动到i+1位置，左移。n传入-1时，移动到i-1位置，右移
+        function move(n){
+          if(canClick){//只有可以单击时
+            moveTo(i+n);//才调用真正移动ul的方法
+            canClick=false;//马上把开关关上，禁止再次点击
+            //只有本地transition动画播放完，才能自动打开开关，点击按钮才有反应。
+            setTimeout(function(){
+              canClick=true;
+            },DURATION+100);
+          }
+        }
+        btnLeft.onclick=function(){
+          move(-1);
+        }
+ 
+  
+    </script>
+    <script>
+        var interval=3000;//每次轮播之间间隔3秒
+        var timer=setInterval(function(){
+          moveTo()
+        },3000);
+        var banner=document.getElementById("banner");
+        banner.onmouseover=function(){
+          clearInterval(timer);
+        }
+        banner.onmouseout=function(){
+          timer=setInterval(function(){
+            moveTo()
+          },3000);
+        }
+    </script>
+    <script>
+        var ulIdxs=document.getElementById("ul-idxs");
+        var canClick=true;
+        ulIdxs.onclick=function(e){
+          if(canClick){
+            var li=e.target;
+            if(li.nodeName=="LI"){
+              if(li.className!=="active"){
+                for(var i=0;i<lis.length;i++){
+                  if(lis[i]==li){
+                    break;
+                  }
+                }
+                moveTo(i);
+                setTimeout(function(){
+                  canClick=true;
+                },DURATION);
+              }
+            }
+          }
+        }
+  
+    </script>
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/footer.js"></script>
+<!--引入尾部-->
+</body>
+</html>

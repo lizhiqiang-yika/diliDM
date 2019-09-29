@@ -1,0 +1,371 @@
+.clear{
+    zoom: 1;
+    height: 1644px;
+    display:inline-block;
+
+}
+.aside{
+    margin-top: 60px;
+    width: 895px;
+    float: left;
+    font-size: 14px;
+    height: 16px;
+    color: #bbb;
+    background: url(../../img/mark.png) no-repeat 1rem 0;
+    background-size: contain;
+    padding-left: 2rem;
+    padding-bottom: 0.2rem;
+    /*display: block;*/
+}
+h6{
+    font-size: 16px;
+    color: #666;
+}
+h6 a{
+    margin: 0 0.4rem;
+    color: #666;
+    text-decoration: none;
+}
+h6 a:hover{
+    color: #f68;
+    text-decoration: none;
+}
+.video{
+    margin: auto;
+    margin-top: 20px;
+    float: left;
+    width: 1180px;
+    height: 560px;
+    background:#000000;
+    text-align: center;
+}
+.video span{
+    display: inline-block;
+    margin-top: 10px ;
+    color: #17ac2b;
+
+}
+.plater-sx{
+    float: left;
+   text-align: center;
+    display: block;
+    min-height: 40px;
+    width: 1180px;
+}
+.p-p{
+    margin-top: 5px;
+    float: left;
+}
+.p-p1{
+    float: right;
+}
+.clear p a{
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2px;
+}
+.clear p a:hover{
+    color: #fff;
+    background: #f68;
+}
+.asider-rig{
+    width: 265px;
+    float: right;
+}
+.switch{
+    float: left;
+    width: 1180px;
+}
+.switch div p{
+    margin-bottom: auto;
+    margin-right: 8px;
+    color: red;
+    display: block;
+}
+.switch div{
+    float: left;
+}
+.switch div button{
+    float: left;
+    background: #f68;
+    border:1px solid #f68;
+    color: #fff;
+    border-radius: 8px;
+    width: 74px;
+    margin-right: 8px;
+}
+.aside-cen2{
+    width: 854px;
+    float: left;
+    display: inline;
+}
+.num-con24{
+    color: #fff;
+    padding: 0;
+}
+.num-con24 a{
+    height: 2rem;
+    padding: 0.4rem 0.8rem;
+    margin: 0.4rem;
+    line-height: 1.1rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #777;
+    border-radius: 6px;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+
+}
+.num-con24 a:hover{
+    color: #fff;
+    background: #f68;
+}
+.num-con24 .stttyle{
+    color: #fff;
+    background: #f68;
+}
+.play-detail{
+    width: 854px;
+}
+.player-img img{
+    float: left;
+    width: 178px;
+    height:128px;
+}
+.intro2{
+    margin: 5px 5px;
+    float:left;!important;
+}
+h6 span{
+    height:21px;
+    font-size: 10px;
+    color: #fff;
+    background: #f68;
+    padding: 1px;
+    border:1px solid #f68;
+    border-radius: 20%;
+}
+.intro2 h6{
+    color: #f68;
+}
+.intro2 h6 a{
+    background: red;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 20%;
+    padding: 1px 5px 3px 5px;
+}
+.intro2 p{
+    margin: 0;
+    margin-bottom: 5px;
+}
+.intro2 p span{
+    color: #fff;
+    font-size: 0.75rem;
+    border-radius: 8px 8px;
+    padding: 1px 6px;
+    margin-right: 0.4rem;
+    background: #999;
+}
+.tads-order{
+    float: left;
+    width: 845px;
+    margin-bottom: -1px;
+}
+.clearfi{
+    zoom: 1;
+    list-style: none;
+}
+.clearfi li{
+    font-weight: 700;
+    float: left;
+    color: #00a1d6;
+    margin-left: 8px;
+    text-decoration: none;
+}
+.clearfi .on{
+    border-bottom: 1px solid #00a1d6;
+    color: #00a1d6;
+    margin-right: 8px;
+}
+.clearfi li a:hover{
+    color: #f68;
+    text-decoration: none;
+}
+.her{
+margin-top: 40px;
+}
+.hr1{
+    margin-top: 40px;
+}
+
+.comment-send{
+    float: left;
+    margin-top: 30px;
+}
+.comment-send .kuang{
+    float: right;
+    height: 50px;
+    margin: -51px 0 0 22px;
+}
+.comment-send .kuang textarea{
+    float: left;
+    width: 676px;
+    font-size: 12px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #f4f5f7;
+    border: 1px solid #e5e9ef;
+    overflow: auto;
+    border-radius: 4px;
+    color: #555;
+    /*width: 100%!important;*/
+    height: 65px;
+    transition: 0s;
+    padding: 5px 10px;
+    line-height: normal;
+    outline: none;
+    resize: none;
+}
+.comment-send .kuang .anan{
+    float: right;
+    width: 70px;
+    height: 64px;
+    right: -80px;
+    top: 0;
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #00a1d6;
+    border: 1px solid #00a1d6;
+    margin:0 8px ;
+}
+.pro-comm{
+    padding-top: 10px;
+}
+.pro-reply{
+    float: left;
+    width: 845px;
+    margin: 24px 0 0 5px;
+}
+.pro-reply a img{
+    float: left;
+    margin-top: 4px;
+    border-radius: 50%;
+}
+.pro-con{
+    float:left;
+    margin:-2px 0 16px 16px;
+}
+.pro-con p{
+    margin: 0;
+}
+.pro-sers a{
+    text-decoration: none;
+    color: #000;
+}
+.pro-sers a:hover{
+    color: #2b2ba9;
+}
+.pro-item{
+    margin-top: 5px;
+    float: left;
+    border-bottom: 1px solid #ccc;
+}
+.pro-aside{
+    float: right;
+    width: 256px;
+}
+.pro-rm{
+    margin-top: 10px;
+}
+.pro-vtitle{
+    width: 255px;
+    float: left;
+    border-bottom: 1px solid #666;
+    height: 39px;
+    line-height: 16px;
+    padding: 12px 0;
+}
+.pro-vtitle h6{
+    float: left;
+    height: 16px;
+    font-size: 16px;
+    color: #666;
+    text-indent: 8px;
+    border-left: 6px solid #7dc;
+}
+.pro-year{
+    float: left;
+    left: 130px;
+}
+.pro-year a{
+    color: #666666;
+    text-decoration: none;
+    height: 22px;
+    line-height: 18px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+    padding:0 10px;
+}
+.pro-curr{
+    margin-left: 10px;
+    border-bottom: 4px solid #999;
+}
+.pro-year a:hover{
+    color: #00a1d6;
+}
+.pro-alear{
+    padding: 10px 0;
+}
+
+.pro-pic dt a img{
+    float: left;
+    width: 110px;
+    height: 140px;
+    /*display: block;*/
+    margin-top: 5px;
+}
+.pro-main{
+    float: left;
+    padding: 10px 0;
+    width: 256px;
+    height: 160px;
+}
+.pro-bb h6{
+    margin-left: 114px;
+}
+.pro-bb p{
+    margin: 0;
+    margin-left: 114px;
+}
+.pro-pank{
+    float: left;
+    background: url(../../img/xiao/num.gif) 0 12px no-repeat;
+    height: 530px;
+}
+.pro-pank li{
+    list-style: none;
+    /*height: 36px;*/
+    background: none;
+    line-height: 36px;
+}
+.pro-pank li a{
+    color: #333;
+    text-decoration: none;
+}
+.pro-pank li a:hover{
+    color: #f68;
+}
+
+
+
+
+
+

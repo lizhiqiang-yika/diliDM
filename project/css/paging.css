@@ -1,0 +1,313 @@
+*{margin:0;padding: 0}
+*{box-sizing: border-box}
+a{
+    text-decoration: none;
+    color: #bbb;
+}
+.pag-aside{
+    display: flex;
+    font-size: 12px;
+    height: 16px;
+    color: #bbb;
+    background: url(../../img/mark.png) no-repeat 16px 0;
+    background-size:contain;
+    padding-left: 32px;
+    margin-top:10px; 
+}
+.pag-con24{
+    margin-top:20px; 
+    display: flex;
+}
+.pag-imga img{
+    width: 170px;
+    height: 260px;
+    margin-right:15px; 
+}
+.pag-bb{
+    width: 665px;
+}
+ .pag-bb h1{
+    font-size: 1.6rem;
+    color: #FE6600;
+ }
+ .pag-cs{
+     font-size: 10px;
+     color: #999;
+     height: 32px;
+     line-height: 28px;
+ }
+ .pag-label{
+     width: 50%;
+     float: left;
+     color: #666;
+     line-height: 24px;font-size:12px;
+ }
+ .pag-label>a:hover,.pag-label2>a:hover{
+     color:#f68;
+     text-decoration: none
+ }
+ .pag-label2{
+     color: #666;
+     font-size:12px; 
+     line-height: 24px;
+ }
+ .pag-label3{
+     color: red;
+     font-size: 11px;
+     line-height: 15px;
+ }
+ .pag-label3>a:hover{
+     color: #f68;
+     text-decoration: none;
+ }
+#pag-tab{}
+ #pag-tab li{ 
+    float: left; list-style: none;
+    
+}
+ #pag-tab li a{
+    color: #666666;
+    height: 2.2rem;
+    line-height: 2.6rem;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 0.875rem;
+    padding: 0px 5px;
+    font-size: 18px;
+    /* float: left; */
+    min-width: 5rem;
+    text-align: center;
+  }
+  #pag-container{
+      position: relative;
+  }
+  #pag-content1,#pag-content2{
+      width: 900px;
+       height: 225px;
+      padding:3px;
+      position: absolute;
+      top: 40px;
+    font-size: 13px;
+      left: 0;
+    background-color: #fff;
+  }
+  .pag-clear li{
+      list-style: none;
+      float: left;
+      width: 45%;
+      border-bottom:1px  dashed #e5e5e5;
+      margin-right: 20px; 
+      margin-top: 15px;
+  }
+.pag-clear li em{
+    font-size: 0.75rem;
+    background: #f68;
+    border-radius: 4px 4px;
+    color: #fff;
+    padding: 0px 5px;
+    margin-right: 6px;
+}
+.pag-clear li a:hover{
+    color: #f68;
+    text-decoration: none;
+}
+.pag-asd{
+    position: relative;
+    left:2px;
+    top:280px;
+    margin-bottom:215px; 
+}
+.pag-sitle{
+    margin: 0 14px 0px 14px;
+    display: flex;
+    width: 95%;
+}
+.pag-sitle h5{
+    font-size: 1rem;
+    color: #f68;
+    font-weight: normal;
+    border-left: 6px solid #cd4;
+    text-indent: 8px;
+    height: 1rem;
+    margin: 10px 0;
+    line-height: 1rem;
+    display: inline-block;
+}
+.pag-s_f{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 20px;
+    margin: 10px 10px;
+}
+.pag-s_f a{
+    margin: 0 10px 0 0;
+    color: #777;
+    text-decoration: none;
+}
+.pag-s_f a:hover{
+    color: 
+    #f68;
+}
+.pag-pic{
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    /* display: flex; */
+}
+.pag-cs1{
+    width: 900px;
+    /* background: rgb(172, 125, 125); */
+    overflow: hidden;
+    position: relative;
+}
+.pag-c4{
+    display: flex;
+    width: 1800px;
+}
+.pag-cs2,.pag-cs3{
+   overflow: hidden;
+}
+#pag-btn-left,#pag-btn-right{
+    width:60px;
+    height:100%;
+    position:absolute;
+    top:0;
+    background-repeat:no-repeat;
+    background-position:center;
+    cursor:pointer;
+}
+#pag-btn-left{
+    position: absolute;
+    top: 60px;
+    left:5px;
+    background:url(../../img/xiao/s_lef.png) no-repeat;
+  }
+#pag-btn-right{
+    position: absolute;
+    top: 60px;
+    right:-20px;
+    background:url(../../img/xiao/s_rig.png) no-repeat;
+ }
+#pag-btn-left:hover,#pag-btn-right:hover{
+    /* background-size:40px 70px; */
+    opacity: 0.7;
+    
+}
+.pag-ww1{
+    list-style: none;
+    float: left;
+    padding: 0px 8px;
+}
+.pag-ww1 a{
+    position: relative;   
+}
+.pag-ww1 a img{
+    width: 120px;
+    height: 172px;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+.pag-p1{
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: 120px;
+    color: #000;
+}
+.pag-ss2{
+    position: absolute;
+    bottom: 42px;
+    left: 3px;
+    background: url(../../img/allps/sd.png) 0 0 repeat;
+    width: 115px;
+    color: #fff;
+    padding: 0px 10px;
+    display: block;
+    height: 0px;
+    line-height: 18px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden; 
+    /* top: -55px; */
+}
+
+.pag-ww1 a:hover{
+   color: #f68;
+}
+.pag-ww1 a:hover>.pag-ss2
+{
+   height: 35px;
+   transition: all .3s linear;
+}
+.pag-comm{
+    width: 900px;
+    height: 200px;
+}
+.pag-comment{
+    margin: 10px 10px;
+}
+.pag-tads{
+    display: flex;
+    list-style: none;
+}
+.pag-tads li a{
+
+    margin: 1px 5px;
+    color:#00a1d6;
+    font-size:12px; 
+    font-weight: bolder;
+}
+.pag-on a{
+    border-bottom: 1px solid #00a1d6;
+    color: #00a1d6;
+}
+.pag-tads li a:hover{
+    color: #f68;
+}
+.pag-cols{
+    text-align: center
+}
+.pag-txt{
+    width: 700px;
+    height: 65px;
+    font-size: 12px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #f4f5f7;
+    border: 1px solid #e5e9ef;
+    overflow: auto;
+    border-radius: 4px;
+    color: #555;
+    /* width: 100%!important; */
+    height: 65px;
+    transition: 0s;
+    padding: 5px 10px;
+    line-height: normal;
+}
+.pag-submit{
+    width: 70px;
+    height: 64px;
+    /* position: absolute; */
+    /* right: -80px; */
+    /* top: 0; */
+    padding: 4px 15px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    min-width: 60px;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: #00a1d6;
+    border: 1px solid #00a1d6;
+    transition: .1s;
+    user-select: none;
+    outline: none;
+}
+.container{
+    display: flex;
+}

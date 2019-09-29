@@ -1,0 +1,24 @@
+1*::after{box-sizing: border-box}
+*{margin: 0;padding: 0;}
+.cross{
+    /*margin: 3rem auto 3.5rem;*/
+    color: #fff;
+    /*overflow: hidden;*/
+    background:url(../../img/bg1.jpg) no-repeat 50% 53%;
+    background-size: cover;
+    background-attachment:fixed ;
+    padding: 1.5rem 4%;
+}
+ i{
+    background: rgba(255,255,255,0.15);
+    margin-right: 12px;
+}
+i,a{
+    padding: 0 8px;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+}

@@ -1,0 +1,193 @@
+*{margin:0;padding: 0}
+*{box-sizing: border-box}
+a{
+    text-decoration: none;
+}
+.lan-bigtit{
+    width: 100%;
+    height: 80px;
+    background: #f68;
+    line-height: 80px;
+}
+.lan-quan{ 
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    margin-bottom:50px; 
+    
+}
+.lan-conts{
+    height: 520px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.lan-troos{
+    width: 320px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.lan-clear{
+    width: 100%;
+    height: 80px;
+    background: #f68;
+}
+.lan-clear p {
+    margin: 0 auto;
+    height: 80px;
+    width: 940px;
+    line-height: 80px;
+    border-radius:34px 34px 1px 1px ;
+    font-size: 25px;
+     background: rgb(253, 253, 253);
+}
+.lan-user{
+    padding-top: 20px;
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+.lan-user input,.lan-userss input{
+    width: 80%;
+    height: 38px;
+    border: 1px solid #d6d6d6;
+    padding: 0 10px 0 10px;
+}
+.lan-formbtn{
+    margin-top:20px; 
+    width: 7rem;
+    font-size: 1rem;
+    line-height: 38px;
+    background: #f68;
+    opacity: 0.9;
+    border: #f68;
+}
+.lan-footer{
+    display: flex;
+    float: left;
+    width:100%;
+    height: 210px;
+    /* margin: 0 600px 0 0; */
+    /* max-width: 1000px; */
+
+}
+.lna-footleft{
+    width: 728px;
+    height: 112px;
+    margin: 0 auto;
+    margin-right:60px; 
+    
+}
+.lan-weixin{
+    margin-right:400px; 
+}
+.regis-formcon{
+    display: flex;
+    padding-bottom: 40px;
+    width: 96%;
+    padding:  0 2%;
+    margin: 0 auto;
+    max-width: 950px;
+    margin-bottom:200px 
+}
+.regis-log{
+    padding: 0 3%;
+    width: 56%;
+    text-align: center;
+}
+.regis-foembox{
+    float: left;
+    width: 45%;
+    text-align: left;
+}
+.regis-name{
+    background: url(../../img/xiao/loginico.gif) 0 0 no-repeat;
+
+}
+.regis-foembox .adminico,.lan-user .adminico {
+    width: 38px;
+    height: 38px;
+    text-indent: -9999px;
+    overflow: hidden;
+    float: left;
+    padding: 0;
+    border: 1px solid #d6d6d6;
+    text-align: left;
+}
+.regis-pass{
+    background: url(../../img/xiao/loginico.gif) 0 -60px no-repeat ;
+}
+.regis-zm{
+    background: url(../../img/xiao/loginico.gif) 0 -120px no-repeat;
+}
+.lan-userss{
+    padding-top: 20px;
+    width: 56%;
+    display: block;
+    text-align: left; 
+}
+.lan-formbtns{
+    margin-top:20px; 
+    width: 7rem;
+    font-size: 1rem;
+    line-height: 38px;
+    background: rgb(255, 255, 255);
+    opacity: 0.9;
+    border:1px solid rgb(92, 86, 86);
+}
+.regis-blue{
+    text-align: right;
+    padding: 5px;
+    color: #fff;
+}
+.regis-blue a:hover{
+    color: #f68;
+}
+.lan-name{
+    background: url(../../img/xiao/loginico.gif) 0 0 no-repeat;
+}
+.lan-mali{
+    background: url(../../img/xiao/loginico.gif) 0 -240px no-repeat;
+}
+.lan-puwd{
+    background: url(../../img/xiao/loginico.gif) 0 -60px no-repeat; 
+}
+.lan-puwds{
+    background: url(../../img/xiao/loginico.gif) 0 -180px no-repeat; 
+}
+.reg-info{/* 页面初始，验证消息不显示 */
+	display:none;
+}
+.txt_focus{/*当文本框获得焦点时穿上*/
+	border-top:2px solid black;
+	border-left:2px solid black;
+}/*当文本框失去焦点时脱下*/
+
+.vali_success,.vali_fail{
+	background-repeat:no-repeat;
+  background-position:left center;
+	display:block;
+}
+/* 验证消息：验证通过时的样式 */
+.vali_success{
+    background-image:url("../../img/xiao/ok.png");
+	padding-left:20px;
+	width:0px;height:20px;
+	overflow:hidden;
+}
+/* 验证消息：验证失败时的样式 */
+.vali_fail{
+    background-image:url("../../img/xiao/err.png");
+    border:1px solid red;
+    background-color:#ddd;
+    color:Red;
+    padding-left:30px;
+}
+
+
+
+
+
+
+

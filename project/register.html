@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/landing.css">
+</head>
+<body>
+    <div>
+        <div class="lan-quan">
+            <!-- 标签 -->
+            <div class="lan-bigtit">
+                <h1>会员中心</h1>
+            </div>
+            <div class="lan-clear">
+                <p>
+                    <span>登录</span>
+                </p>
+            </div>
+            <!-- 登录 -->
+           <div class="regis-formcon">
+                <div class="regis-log">
+                    <img src="../img/xiao/banner.jpg" alt="">
+                </div>
+                <div class="regis-foembox">
+                    <form>                    
+                            <div class="lan-user">
+                                    <label class="adminico regis-name" >登录</label>
+                                    <input type="text" placeholder="请输入用户名" maxlength="15" name="username">
+                                </div>
+                                <div class="">
+                                    <p class="reg-info">10个字符以内的字母、数字或下划线的组合</p>
+                                </div>
+                                <div class="lan-user">
+                                    <label class="adminico regis-pass" >密码</label>
+                                    <input type="password" placeholder="******" maxlength="15" name="pwd">
+                                </div>
+                                <div>
+                                    <p class="reg-info">6位数字</p>
+                                </div>
+                                <p class="lan-userss">
+                                    <label class="adminico regis-zm">验证码</label>
+                                    <input type="text" placeholder="请输入验证码" maxlength="15">
+                                </p>
+                                <p>
+                                    <input type="submit" value="登陆" class="lan-formbtn">
+                                    <input type="submit" value="注册" class="lan-formbtns">
+                                </p>
+                                <p class="regi-blues">
+                                    <a href="javascript:;">忘记密码</a>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="lan-footer">
+                        <div class="lna-footleft">
+                            <div class="lan-footlink">
+                                <a href="#">资讯</a>
+                                <span>|</span>
+                                <a href="#">资源</a>
+                                <span>|</span>
+                                <a href="#">新番</a>
+                                <span>|</span>
+                                <a href="#">论坛</a>
+                                <span>|</span>
+                                <a href="#">官方微博</a>
+                                <span>|</span>
+                            </div>
+                            <div class="lan-copyright">
+                                <p>互联网ICP备案：闽ICP备12004074号-8 闽网文</p>
+                                <p>© 2016 羁绊网络 本站不提供任何视听上传服务，所有内容均来自视频分享站点所提供的公开引用资源</p>
+                            </div>
+                        </div>
+                        <div class="lan-weixin">
+                            <!-- <img src="../img/xiao/weixin.png" alt=""> -->
+                            <p>扫二维码收听公众号</p>
+                        </div>
+                    </div>
+                </div>
+    <script>
+ var txtName=
+	document.getElementsByName(
+		"username"
+	)[0];//即使找到的是一个元素，也是套在一个集合中返回的。只有用[0]才能掏出抱在集合内的元素对象
+var txtPwd=
+	document.getElementsByName(
+		"pwd"
+	)[0];
+//2. 绑定事件处理函数
+//先绑定获得焦点事件 
+txtName.onfocus=
+txtPwd.onfocus=function(){
+	//3. 查找要修改的元素
+	//先获得当前文本框
+	var txt=this;
+	//找到当前文本框的爹的下一个兄弟的第一个孩子div
+	var div=txt.parentNode //当前td
+						.nextElementSibling //下一个td
+						.children[0];//div
+                        console.log(txt.parentNode);
+                        console.log(txt.parentNode.nextElementSibling);
+                        console.log(txt.parentNode.nextElementSibling.children[0]);
+	//4. 修改元素
+	//脱掉旁边div的隐身斗篷未
+	div.className="";
+}
+txtName.onblur=function(){
+	//定义姓名验证的正则表达式:
+	var reg=/^\w{1,10}$/;
+	//调用封装好的vali函数
+	vali(this,reg);
+	//vali中的this->window 是错的
+	//onblur中的this是.前的txtName 是对的
+	//所以在调用vali时，将onblur中正确的this，传入函数，交给形参txt
+}
+//考虑1个问题: 函数中缺什么是自己没有的！缺什么，就要定义什么形参，请外部将来传入！
+function vali(txt,reg){
+	//用reg验证文本框的内容
+	var bool=reg.test(txt.value);
+	//先查找当前文本框旁边的div
+	var div=txt.parentNode //当前td
+						.nextElementSibling //下一个td
+						.children[0];//div
+	//如果验证通过
+	if(bool){
+		//就修改旁边div的className为vali_success
+		div.className="vali_success";
+	}else{//否则(如果验证没通过)
+		//就修改旁边div的className为vali_fail
+		div.className="vali_fail";
+	}
+}
+txtPwd.onblur=function(){
+	var reg=/^\d{6}$/;
+	vali(this,reg);
+}
+    </script>
+</body>
+</html>

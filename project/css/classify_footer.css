@@ -1,0 +1,49 @@
+
+.paginations{
+
+    /* display: flex; */
+    padding-left: 0;
+    height: 100px;
+    list-style: none;
+    border-radius: 0.25rem;
+}
+.zmfl p{
+    float: left;
+    margin: 0 3px;
+    padding: 2px 3px;
+}
+.zmfl ul li{
+    margin: 0 3px;
+    float: left;
+    padding: 2px 3px;
+    text-align: center;
+    border-radius: 3px;
+}
+.page-link{
+    width: 24px;
+    height: 37px;
+    padding: 7px 1px ;
+    color: #000;
+}
+.page-link:hover{
+    color: #f00;
+}
+.copy_right{
+    width: 680px ;
+    margin-left: -810px;
+    padding: 0px 15px;
+    font-size: 12px;
+    line-height: 12px;
+}
+.coptright{
+    width: 1140px;
+    height: 46px ;
+    background-size:120px auto ;
+    padding: 55px 13px;
+    margin-left:-330px;
+    padding-left: 140px;
+    background: url(../../img/logo.png) center no-repeat;
+    background-size:120px auto ;
+    background-position:1px 14px ;
+text-align: center;
+}

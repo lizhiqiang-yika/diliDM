@@ -1,0 +1,120 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+  }
+  ul,li{
+    margin:0; padding:0;
+  }
+  hr{
+    border:1px solid rgb(239,239,239);
+  }
+  body{
+    font-size:12px;
+  }
+  body>ul>li:hover{
+    background-color:#fff;
+    border-top-width: 1px;
+    border-top-color: orangered;
+    border-bottom-width:1px;
+    border-bottom-color: #fff;
+    height:35px; line-height:35px;
+    cursor:pointer;/*鼠标变小手*/
+  
+  }
+ 
+header{
+    background: url(../../img/banner19219.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    width: 100%;
+    z-index: 999;
+    height: 120px;
+    box-shadow: 0 0 5px rgba(0, 0,0, 0.4);
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+/* header:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 120px;
+    /* background: rgba(92, 219, 232, 0.8); */
+    /* background: rgba(132, 137, 137, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+} */ 
+.header-logo{
+    width: 1000px;
+    height: 84px;
+    margin: 0 auto;
+    background: url(../../img/logo.png) no-repeat 0 111%;
+    background-size: 230px 63px;
+    z-index: 2; 
+}
+.header-top{
+    content: '';
+    display: flex;
+    height: 46px;
+    width: 1000px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 999;
+    /* margin-top:16px; */
+    text-shadow: 2px 2px 6px #000; 
+    
+}
+.header-meun{
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    color: #fff;
+}
+.header-meun>li{
+    line-height: 1.2rem;
+    /* overflow: hidden; */
+    width: 72px;
+    height: 42px;
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
+.header-sub{
+    top: 35px;
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .5s linear;
+}
+.header-meun>li:hover>ul{
+    opacity: 1;
+    height: 215px;
+    background: #3fc3d0;
+}
+.header-meun ul li a:hover{
+    color: #000;
+    padding: 0 5px;
+    background: #3fc3d0;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.header-meun>li:nth-child(3):hover>ul{
+    height: 160px;
+}
+.header-meun>li:nth-child(7):hover>ul{
+    height: 22px;
+    width: 150px;
+    /* margin: 0 auto; */
+}
+.header-meun>li:nth-child(8):hover>ul{
+    height: 45px;
+}
+
+
